@@ -4,16 +4,11 @@ class StaticPagesControllerTest < ActionController::TestCase
 def setup
   @BaseTitle = "Ruby on Rails Tutorial Sample App"
 end
-test "should get root" do
-  get :home
-  assert_response :success
-  assert_select  "title", "Home | #{@BaseTitle}"
-end
 
   test "should get home" do
     get :home
     assert_response :success
-    assert_select  "title", "Home | #{@BaseTitle}"
+    assert_select  "title", "#{@BaseTitle}"
   end
 
   test "should get help" do
