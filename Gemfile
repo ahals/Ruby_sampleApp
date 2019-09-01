@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'bootstrap-sass'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+gem 'jquery'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -25,7 +27,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
  gem 'bcrypt', '~> 3.1.7'
-
+ gem 'faker'
+ gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
